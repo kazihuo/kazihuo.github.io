@@ -1,0 +1,148 @@
+### Site info.
+title: "Cryptospace"
+tagline: 万物之中，希望至美；至美之物，永不凋零。
+author: Robin Wen
+email: blockxyz@gmail.com
+description: 自由主义者，区块链创业者，ChainONE 社区发起人，「币安说」主理人，dbarobin.com 博主，隐私极客。如您所知，本人发布的文章与评论内容仅代表本人观点。「万物之中，希望至美；至美之物，永不凋零。」
+keywords: "互联网,科技,区块链,Blockchain,加密货币,Cryptocurrency,比特币,Bitcoin,以太坊,Ethereum,门罗币,Monero,区块链资产交易平台,币币交易,数字货币交易网,虚拟货币账户,比特币交易系统,以太坊行情,莱特币走势,BNB,赵长鹏,BTC价格,ETH钱包注册,LTC市价,币安,杠杆期货,Binance"
+# url: "https://dbarobin.com" # The base hostname & protocol for your site
+url: "https://dbarobin.com" # The base hostname & protocol for your site
+enforce_ssl: "dbarobin.com" # The base hostname & protocol for your site
+locale: en_US
+encoding: UTF-8
+
+### Personal info and site tools info.
+twitter_username: vrwio
+github_username:  dbarobin
+telegram_name: robinwen
+# disqus_shortname: dbarobin
+favicon:     "/images/favicon.ico"
+aboutme: Hi, I'm Robin Wen.
+aboutme_photo: "/images/wentasy.png"
+google_analytics_key: UA-57297247-1
+
+### Site settings.
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True.
+default_column: "two" # Blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # Blog sidebar language set, only include: English(en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr).
+path: "/_data/comments" # Path which stored comments etc.
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Google_Search: "Google Search"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"
+      PostDate: "on "
+      WechatDBTalk: "Official WeChat"
+      WechatDonate: "Donate"
+    cn:
+      Aboutme: "关于"
+      Archives: "归档"
+      Blogroll: "友链"
+      Categories: "目录"
+      Copyright_Notice: "版权声明"
+      Recent_Posts: "近期文章"
+      Google_Search: "搜索"
+      Tags: "标签"
+      Previous: "后一页"
+      Next: "前一页"
+      PostedInCategories: "目录:"
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间: "
+      WechatDBTalk: "微信公众号"
+      WechatDonate: "微信捐赠"
+    jp:
+      Aboutme: " 著者 "
+      Archives: " アーカイブ "
+      Blogroll: " ブログロール "
+      Categories: " カテゴリー "
+      Copyright_Notice: " 著作権表示 "
+      Recent_Posts: " 最近の投稿 "
+      Tags: " タグ "
+      Previous: " 前の記事 "
+      Next: " 次の記事 "
+      PostedInCategories: " カテゴリー："
+      Taggedwith: "| タグ："
+      PostDate: "| 投稿日時: "
+      Google_search: " サイト内検索 "
+      Home: " ホーム "
+      About: " このブログについて "
+      Guestbook: " メッセージ "
+      Subscribe: " 購読 "
+    pl:
+      Aboutme: "O mnie"
+      Archives: "Archiwum"
+      Blogroll: "Odnośniki"
+      Categories: "Kategorie"
+      Copyright_Notice: "Prawa autorskie"
+      Recent_Posts: "Najnowsze wpisy"
+      Tags: "Tagi"
+      Previous: "Starsze"
+      Next: "Nowsze"
+      PostedInCategories: "Kategoria"
+      Taggedwith: "tagi"
+      PostDate: "on "
+      Google_search: "Wyszukiwarka"
+      Home: "Strona główna"
+      About: "O mnie"
+      Guestbook: "Księga gości"
+      Subscribe: "Subskrypcja"
+
+
+### Blogroll info, only name can shown on the page.
+Blogroll:
+    - name: DBA Notes
+      href: http://dbanotes.net
+      title: DBA Notes
+    - name: KeNengBa
+      href: https://kenengba.com
+      title: KeNengBa
+    - name: MacTalk
+      href: http://macshuo.com
+      title: MacTalk
+    - name: Taosay
+      href: https://zhuanlan.zhihu.com/taosay
+      title: Taosay
+    - name: Yurii
+      href: http://www.luanxiang.org/blog
+      title: Yurii
+    - name: X7
+      href: http://blog.csdn.net/dba_waterbin
+      title: X7
+    - name: Ri Xu
+      href: https://xuri.me
+      title: Ri Xu
+    - name: Korin
+      href: http://zkorin.com
+      title: Korin, PM
+
+### Build settings.
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+excerpt_separator: <!--more-->
+
+### Kramdown settings.
+kramdown:
+  input: GFM
+  hard_wrap: true
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+  syntax_highlighter: rouge
+
+### Custom gems.
